@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Hariharan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f6978af818.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#" style="font-weight: bolder; font-style: italic; font-size: 24px;">Foodland.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav m-auto">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#RecipesSection">Recipes</a>
+                    <a class="nav-link" href="#blogSection">Blogs</a>
+                    <a class="nav-link" href="#ContactSession">Contect us</a>
+                    <a class="nav-link" href="#aboutUsSection">About us</a>
+
+
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <i class="fa-brands fa-facebook ml-4" style="font-size: 24px;"></i>
+                    <i class="fa-brands fa-twitter ml-3" style="font-size: 24px;"></i>
+                    <i class="fa-brands fa-instagram ml-3" style="font-size: 24px;"></i>
+                </div>
+
+            </div>
+        </nav>
+        <hr>
+        <div id="HomePageSession">
+
+            <section>
+
+                <div class="d-flex flex-row justify-content-center m-4">
+
+                    <div class="first-session-bg-container d-flex flex-column justify-content-center p-5">
+                        <div class="first-session-alaram-container">
+                            <img src="https://emojis.wiki/thumbs/emojis/scroll.webp" class="first-session-madal-image pl-2 " />
+                            <span> Hot Recipes</span>
+                        </div>
+                        <h1 class="pt-2">Spicy delicious chicken wings</h1>
+                        <p class="pb-2">Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim </p>
+                        <div class="d-flex flex-row justify-content-start">
+                            <div class="first-session-madal-container mr-3 p-1 pt-2">
+                                <center>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                        <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" />
+                                    </svg>
+                                    <span class="first-session-madal-span"> 30Minutes</span>
+                                </center>
+                            </div>
+
+                            <div class="first-session-madal-container ml-3 p-1 pt-2">
+                                <center>
+                                    <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                    <span class="first-session-madal-span"> Chicken</span>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start">
+                            <div class="header">
+
+                                <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic">
+                                <div class="">
+                                    <h1 style="font-size: 24px; font-family:Roboto; font-weight: bolder;">John Smith</h1>
+                                    <span>15 March 2022</span>
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="d-flex flex-column justify-content-center ml-3">
+                                <button class="btn btn-dark firs-session-button-element mt-3">View Recipes <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                        <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
+                                    </svg></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <img src="https://img.freepik.com/premium-photo/indian-tea-time-snacks-group-includes-veg-samosa-kachori-kachaudi-aloo-bonda-khaman-dhokla-bread-onion-chilli-moong-pakora-pakoda-bhaji-bhajji-bhajiya-bajji-with-sauces_466689-37138.jpg?w=740" class="first-session-image" />
+                </div>
+
+
+
+            </section>
+            <section class="m-5">
+                <div class="d-flex flex-row justify-content-between">
+                    <h1>Catagories</h1>
+                    <div>
+                        <button class="btn btn-info" style="border-radius: 10px;">View All Catagories</button>
+                    </div>
+                </div>
+
+                <section class="container3 d-flex flex-row justify-content-between">
+
+                    <div class="container2">
+                        <div class="breakfast ml-3 mr-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeQnchEr29y0dijzibyfiWwCfMcJsY4tgk5g&s" alt="">
+                            <h1>Breakfast</h1>
+                        </div>
+                        <div class="vegan ml-3 mr-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkL_mFkhGtUur0H0nLB_FU95Jqej_KP3eGqg&s" alt="">
+                            <h1>Vegan</h1>
+                        </div>
+                        <div class="meat ml-3 mr-3">
+                            <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_80116649_344560.jpg" alt="">
+                            <h1>Meat</h1>
+                        </div>
+                        <div class="dessert ml-3 mr-3">
+                            <img src="https://static.vecteezy.com/system/resources/previews/007/933/797/non_2x/a-piece-of-cake-with-pink-frosting-sprinkles-and-raspberries-cartoon-style-great-design-for-any-purposes-illustration-isolated-on-white-background-vector.jpg" alt="">
+                            <h1>Dessert</h1>
+                        </div>
+                        <div class="lunch ml-3 mr-2">
+                            <img src="data:image/jpeg;base64,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" alt="">
+                            <h1>Lunch</h1>
+                        </div>
+
+
+                    </div>
+                </section>
+            </section>
+            <section class="m-5">
+                <center>
+                    <h1 class="thired-session-heading">Simple and tasty recipes</h1>
+                    <p class="thired-session-paragraph ml-5 mr-5">Lorem ipsum dolor sit amet, consectrtuipisicing elit, seed do wiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
+                </center>
+            </section>
+            <section>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="forth-session-container p-2 ml-4 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/delicious-sandwiches-fries-ketchup-wooden-cutting-board-dark-mix-color-surface_179666-42231.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Big and Juicy Wagyu Beef Cheeseburger</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Snacks</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+                    <div class="forth-session-container p-2 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/view-mahi-mahi-fish-dish-with-lemon-slices_23-2150443928.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Fresh Lime Roasted Salmon With Ginger Sauce</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Fish</span>
+
+
+                            </div>
+                        </center>
+
+
+                    </div>
+                    <div class="forth-session-container p-2 mr-4 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/delicious-waffles-with-fruit-honey_144627-41456.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Strawberry Otmeal Pencake with Honey Syrup</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">BreakFast</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="forth-session-container p-2 ml-4 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/fresh-vegetable-salad-table_140725-340.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Fresh and Healthy Mixed Mayonnaise Salad</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Healthy</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+                    <div class="forth-session-container p-2 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/high-angle-delicious-fried-food-croquettes_23-2149202646.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Chicken Meatballs with Cream Chese</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Meat</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+                    <div class="forth-session-container p-2 ml-4 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/ice-cream-sandwich-with-whoopie-pie-cookies_136595-10206.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Ice Cream Sandwich</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Dinner</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="forth-session-container p-2 ml-4 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/top-view-yummy-pancakes-with-fruits-tea-light_140725-121028.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">Fryity Pancake with Orange & Bluberry</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Sweet</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+                    <div class="forth-session-container p-2 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/chicken-meat-noodle-plate-trivet-vegetables-marble-background_114579-91202.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">The Best Easy One Pot Chicken and Rice</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Snack</span>
+
+
+                            </div>
+                        </center>
+
+                    </div>
+                    <div class="forth-session-container p-2 ml-4 m-3">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/high-angle-view-food-served-plate_1048944-630981.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <center>
+                            <h1 class="forth-session-heading p-2 text-center">The Creamist Creamy Chicken and Becon Pasta</h1>
+                            <div class="d-flex flex-row justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                                </svg>
+                                <span class="pl-2 pr-2">30 Minutes</span>
+                                <i class="fa-solid fa-utensils" style="font-size: 24px;"></i>
+                                <span class="pl-2">Noodles</span>
+
+
+                            </div>
+                        </center>
+                    </div>
+
+                </div>
+            </section>
+            <section>
+                <div class="d-flex flex-row justify-content-center m-4 pt-4">
+
+                    <div class="fifth-session-bg-container  d-flex flex-column justify-content-center p-5">
+                        <h1>Everyone can be a chef in their own kitchen</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
+                        <div>
+                            <button class="btn btn-dark"> Learn More</button>
+                        </div>
+
+                    </div>
+
+
+                    <img src="https://img.freepik.com/free-photo/chef-cutting-green-cucumber-his-kitchen_155003-496.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="fifth-session-image w-100" />
+                </div>
+            </section>
+
+            <section>
+                <div class="instra-card-bg-container pb-5 pt-3 mt-3">
+                    <div class="text-center pt-3 pb-3">
+                        <h1>Check out @foodieland on Instagram </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqut ad minim</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between m-2">
+                        <div class="p-2 m-2" style="background-color: #fff; border-radius: 20px;">
+                            <div class="d-flex flex-row justify-content-between m-2">
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-vector/frame-with-fast-food_23-2147859044.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <span class="username">Foodieland.</span><i class="fa-solid fa-circle-check"></i>
+                                        <p>Tokyo, Japan</p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <img src="https://img.freepik.com/free-photo/meat-sadj-vegetables-greens-spices-top-view_140725-11308.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100" />
+                            </div>
+                            <div class="d-flex flex-row justify-content-between p-2">
+                                <div class="" style="font-size:25px;">
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                    <i class="fa-regular fa-comment pr-2"></i>
+                                    <i class="fa-regular fa-paper-plane pr-2"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="header">
+
+                                <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic2">
+                                <div class="">
+
+                                    <span>Liked by <span style="font-weight: bolder;">Craig_love </span>and <span style="font-weight: bolder;">44,686</span></span>
+
+                                </div>
+
+
+                            </div>
+                            <p><span style="font-weight: bolder;">Foodieland.</span> The vegetables dishes need to have certain vitamin for those people</p>
+                            <p class="instra-card-paragraph">September 19</p>
+
+
+                        </div>
+                        <div class="p-2 m-2" style="background-color: #fff; border-radius: 20px;">
+                            <div class="d-flex flex-row justify-content-between m-2">
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-vector/frame-with-fast-food_23-2147859044.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <span class="username">Foodieland.</span><i class="fa-solid fa-circle-check"></i>
+                                        <p>Tokyo, Japan</p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <img src="https://img.freepik.com/free-photo/top-view-from-afar-sweets-cup-coffee-with-cookies-coffee-beans-citrus-fruits_140725-78925.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100" />
+                            </div>
+                            <div class="d-flex flex-row justify-content-between p-2">
+                                <div class="" style="font-size:25px;">
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                    <i class="fa-regular fa-comment pr-2"></i>
+                                    <i class="fa-regular fa-paper-plane pr-2"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="header">
+
+                                <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic2">
+                                <div class="">
+
+                                    <span>Liked by <span style="font-weight: bolder;">Craig_love </span>and <span style="font-weight: bolder;">44,686</span></span>
+
+                                </div>
+
+
+                            </div>
+                            <p><span style="font-weight: bolder;">Foodieland.</span> Sweet food can bring someone into happiness as long as they don't eat to much</p>
+                            <p class="instra-card-paragraph">September 19</p>
+
+
+                        </div>
+                        <div class="p-2 m-2" style="background-color: #fff; border-radius: 20px;">
+                            <div class="d-flex flex-row justify-content-between m-2">
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-vector/frame-with-fast-food_23-2147859044.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <span class="username">Foodieland.</span><i class="fa-solid fa-circle-check"></i>
+                                        <p>Tokyo, Japan</p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <img src="https://img.freepik.com/free-photo/top-view-sliced-white-onion-bowl-with-sweet-red-whole-white-one-straw-red-surface_141793-10643.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100" />
+                            </div>
+                            <div class="d-flex flex-row justify-content-between p-2">
+                                <div class="" style="font-size:25px;">
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                    <i class="fa-regular fa-comment pr-2"></i>
+                                    <i class="fa-regular fa-paper-plane pr-2"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="header">
+
+                                <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic2">
+                                <div class="">
+
+                                    <span>Liked by <span style="font-weight: bolder;">Craig_love </span>and <span style="font-weight: bolder;">44,686</span></span>
+
+                                </div>
+
+
+                            </div>
+                            <p><span style="font-weight: bolder;">Foodieland.</span> What are you doing before start cooking? prepare the tools or ingredients?</p>
+                            <p class="instra-card-paragraph">September 19</p>
+
+
+                        </div>
+                        <div class="p-2 m-2" style="background-color: #fff; border-radius: 20px;">
+                            <div class="d-flex flex-row justify-content-between m-2">
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-vector/frame-with-fast-food_23-2147859044.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <span class="username">Foodieland.</span><i class="fa-solid fa-circle-check"></i>
+                                        <p>Tokyo, Japan</p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <img src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141356.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100" />
+                            </div>
+                            <div class="d-flex flex-row justify-content-between p-2">
+                                <div class="" style="font-size:25px;">
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                    <i class="fa-regular fa-comment pr-2"></i>
+                                    <i class="fa-regular fa-paper-plane pr-2"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                                <div style="font-size:25px;">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="header">
+
+                                <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic2">
+                                <div class="">
+
+                                    <span>Liked by <span style="font-weight: bolder;">Craig_love </span>and <span style="font-weight: bolder;">44,686</span></span>
+
+                                </div>
+
+
+                            </div>
+                            <p><span style="font-weight: bolder;">Foodieland.</span>Steak never be wrong, it's suitable for hyou who want romantic dinner</p>
+                            <p class="instra-card-paragraph">September 19</p>
+
+
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-dark" style="border-radius: 10px;">Visit Our Instagram <i class="fa-brands fa-instagram pl-2"></i> </button>
+                    </div>
+                </div>
+
+
+
+            </section>
+            <section>
+                <div class="d-flex flex-row justify-content-between m-4">
+                    <h1>Try this delicious recipe to make your day</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex flex-row justify-content-center mt-3">
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/halves-coconut-filled-with-fruit-salad-high-view_23-2148494776.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Mixed Tropical Fruit Saled with Superfood Boosts</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/fried-cutlet-different-ingredients-hamburger-wooden-background-cooking-homemade-hamburger_209484-6702.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Big and Juicy Wagyu Beef Cheeseburger</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Western</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-rice-vegetables-plate_23-2148377487.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Healthy Japanese Fried Rice with Asparagus</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/grilled-chicken-wings-cauliflower-wood-piece_114579-82074.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Cauliflower Wainut Vegetarian Taco Meat</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Eastern</span>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/plates-crisp-warm-wedge-salad-topped-with-bacon-croutons-red-onion_1048944-19138525.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Rainbow Chicken Salad with Almond Honey Mustard Dressing</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/delicious-chicken-sandwich-table_550617-25561.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Barbeque Spicy Sandwiches with Chips</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Snack</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/vietnamese-spring-rolls-with-spicy-sauce_1150-18506.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Firecracker Vegan Lettuce Wraps-spicy!</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Seafood</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/chicken-soup-with-corn-shiitake-mushroom-enoki-mushroom-carrot_1150-25847.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Chicken Ramen Soup With Mushroom</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Japanese</span>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <section>
+                <div class="text-center pt-4 eigth-session-card m-5 pt-3 pb-5">
+                    <h1>Deliciousness to your inbox</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                    <div class="eigth-session-container m-auto">
+                        <input type="text" class="eigth-session-input-element mt-3" placeholder="Your email address" />
+                        <button class="btn btn-dark eigth-session-button-element mt-1 mb-2 ml-2">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white m-2">
+                <a class="navbar-brand" href="#">Foodland.</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Recipes</a>
+                        <a class="nav-link" href="#">Blogs</a>
+                        <a class="nav-link" href="#">Contect us</a>
+                        <a class="nav-link" href="#">About us</a>
+
+                    </div>
+
+                </div>
+            </nav>
+            <p class="ml-4">Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+            <hr class="m-2">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="bg-color">
+                    <p class="pl-1 ml-1 mr-3">C</p>
+
+                </div>
+                <span class="ml-2 mr-5">2020 Flowbase. Powered by <span style="color:#fc8b72">Webflow</span></span>
+
+                <div class="" style="">
+                    <i class="fa-brands fa-facebook pl-4 " style="font-size: 25px; margin-left:400px"></i>
+                    <i class="fa-brands fa-twitter pl-4 pr-2" style="font-size: 25px"></i>
+                    <i class="fa-brands fa-instagram pl-4 pr-2" style="font-size: 25px"></i>
+                </div>
+            </div>
+        </div>
+        <div id="RecipesSection">
+            <h1 class="heading m-4">Health Japanese Fried Rice</h1>
+            <section>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="m-4 d-flex flex-row justify-content-center">
+                        <div class="header mr-5">
+
+                            <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic">
+                            <div class="">
+                                <h1 class="username">username</h1>
+                                <span>15 March 2022</span>
+
+                            </div>
+
+
+                        </div><br>
+                        <div class="header ml-2 mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pl-2 svg" width="28" height="56" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" />
+                            </svg>
+                            <div class="pl-3">
+                                <h1 class="username">PREB TIME</h1>
+                                <span>15 Minutes</span>
+
+                            </div>
+
+                        </div><br>
+                        <div class="header ml-2 mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="pl-2 svg" width="28" height="56" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" />
+                            </svg>
+                            <div class="pl-3">
+                                <h1 class="username">COOK TIME</h1>
+                                <span>15 Minutes</span>
+
+                            </div>
+
+                        </div><br>
+                        <div class="header ml-2 mr-2">
+                            <div class="header">
+                                <i class="fa-solid fa-utensils blog-icon"></i>
+                                <div class="pl-3">
+                                    <h1 class="username">Chicken</h1>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="d-flex flex-row justify-content-between">
+                        <div>
+                            <div class="page-icon-element-container m-3">
+                                <i class="fa-solid fa-print pl-4 pt-4 pr-2" style="font-size: 34px;"></i>
+
+                            </div>
+                            <span class="pl-4 ml-3">Print</span>
+                        </div>
+                        <div>
+                            <div class="page-icon-element-container m-3">
+                                <i class="fa-solid fa-arrow-up-right-from-square pl-4 pt-4 pr-2" style="font-size: 34px;"></i>
+                            </div>
+                            <span class="pl-4 ml-3">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section>
+                <div class="d-flex flex-row justify-content-center m-4">
+                    <img src="https://img.freepik.com/premium-photo/stew-chicken-with-vegetables-mushrooms-cream-sauce_2829-11588.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="first-sesion-img w-100 mr-5">
+                    <div>
+                        <div class="first-sesion-container pb-3 ml-5">
+                            <div class="m-3">
+                                <h1 class="first-sesion-heading pt-3 pb-3">Nutrition Information</h1>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h1>Calories</h1>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <p class="username ">219.9 Kcal</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h1>Total Fat</h1>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <p class="username ">10.7g</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h1>Protein</h1>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <p class="username ">7.9 g</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h1>Carbohydrate</h1>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <p class="username ">22.3 g</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h1>Cholesterol</h1>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <p class="username ">37.4 mg</p>
+                                    </div>
+                                </div>
+                                <hr class="pb-5">
+
+
+                            </div>
+                            <p class="m-3 text-center pt-5">adipiscing elit, sed do elusmopd tempor incideidunt ut labore et dolore magna aliqua.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="m-4">
+
+
+                <span>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their metabolisms and have evolved to fill a specific ecological niche within specific geographical contexts.
+
+                </span>
+            </div>
+            <section>
+                <div class="d-flex flex-row justify-content-between m-4">
+                    <div>
+                        <div>
+                            <h1 class="pt-3 pb-3">Ingredients</h1>
+                            <h3 class="pb-2">For main dish</h3>
+                            <hr class="blog-forth-session-line" />
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-solid fa-circle-check" style="font-size: 32px;"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr />
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                            <h3 class="pb-2 pt-3">For the Sauce</h3>
+                            <hr />
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div>
+                                    <i class="fa-regular fa-circle blog-forth-session"></i>
+                                </div>
+
+                                <span class="pl-4 blog-forth-session-span">Lorem ipsum dolor sit Amet</span>
+                            </div>
+                            <hr>
+                        </div>
+                        <div>
+                            <h1 class="pt-3 pb-3">Directions</h1>
+                            <div class="pb-3">
+                                <i class="fa-regular fa-circle blog-forth-session"></i>
+                                <span style="font-size: 36px;" class="pl-2">1. Lorem ipsum dolor sit Amet</span>
+                                <p>Most food produced for the food industry comes from commodity crops using conventional agricultural practices. Agriculture is the process of producing food, feeding products, fiber and other desired products by the cultivation of certain plants and the raising of domesticated animals (livestock). On average, 83% of the food consumed by humans is produced using terrestrial agriculture.In addition to terrestrial agriculture, aquaculture and fishing play vital roles in global food production.</p>
+                            </div>
+                            <div class="pb-3">
+                                <i class="fa-regular fa-circle blog-forth-session"></i>
+                                <span style="font-size: 36px;" class="pl-2">2. Lorem ipsum dolor sit Amet</span>
+                                <img src="https://img.freepik.com/free-photo/front-view-mother-girl-preparing-food-kitchen_23-2148805005.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100" style="border-radius: 30px;" />
+                                <p class="pt-2">Most food produced for the food industry comes from commodity crops using conventional agricultural practices. Agriculture is the process of producing food, feeding products, fiber and other desired products by the cultivation of certain plants and the raising of domesticated animals (livestock). On average, 83% of the food consumed by humans is produced using terrestrial agriculture.In addition to terrestrial agriculture, aquaculture and fishing play vital roles in global food production.</p>
+                            </div>
+                            <div class="pb-3">
+                                <i class="fa-regular fa-circle blog-forth-session"></i>
+                                <span style="font-size: 36px;" class="pl-2">3. Lorem ipsum dolor sit Amet</span>
+                                <p>Most food produced for the food industry comes from commodity crops using conventional agricultural practices. Agriculture is the process of producing food, feeding products, fiber and other desired products by the cultivation of certain plants and the raising of domesticated animals (livestock). On average, 83% of the food consumed by humans is produced using terrestrial agriculture.In addition to terrestrial agriculture, aquaculture and fishing play vital roles in global food production.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="ml-2">
+                            <h1 class="pb-3"> Tasty Recipes</h1>
+                            <div class="d-flex flex-row justify-content-center pb-3">
+                                <img src="https://img.freepik.com/free-photo/top-view-tasty-meat-soup-with-potatoes-seasonings-dark-desk_140725-76944.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="second-session-blog-image" />
+                                <div class="d-flex flex-column justify-content-center pl-2">
+                                    <h1>Chicken Meatballs with Cream Cheese</h1>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center pb-3">
+                                <img src="https://img.freepik.com/free-photo/front-view-meat-sauce-soup-with-greens-potatoes-dark-desk-soup-dinner-sauce-meat_140725-79068.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="second-session-blog-image" />
+                                <div class="d-flex flex-column justify-content-center pl-2">
+                                    <h1>Traditional Bolognaise Ragu</h1>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center pb-3">
+                                <img src="https://img.freepik.com/free-photo/top-close-up-view-chicken-sauce-lemon-chicken-with-potatoes-seeds-pomegranate-herbs_140725-72600.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="second-session-blog-image" />
+                                <div class="d-flex flex-column justify-content-center pl-2">
+                                    <h1>Pork and Chive Chinese Dumplings</h1>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section>
+                <div class="text-center pt-4 eigth-session-Blog-card2 m-5 pt-3 pb-5">
+                    <h1>Deliciousness to your inbox</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                    <div class="eigth-session-container m-auto">
+                        <input type="text" class="eigth-session-input-element mt-3" placeholder="Your email address" />
+                        <button class="btn btn-dark eigth-session-button-element mt-1 mb-2 ml-2">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <h1 class="text-center">You maylike these recipe too</h1>
+            <section>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/halves-coconut-filled-with-fruit-salad-high-view_23-2148494776.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Mixed Tropical Fruit Saled with Superfood Boosts</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/fried-cutlet-different-ingredients-hamburger-wooden-background-cooking-homemade-hamburger_209484-6702.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Big and Juicy Wagyu Beef Cheeseburger</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Western</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-rice-vegetables-plate_23-2148377487.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Healthy Japanese Fried Rice with Asparagus</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/grilled-chicken-wings-cauliflower-wood-piece_114579-82074.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Cauliflower Wainut Vegetarian Taco Meat</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Eastern</span>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white m-2">
+                <a class="navbar-brand" href="#">Foodland.</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#HomePageSession">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Recipes</a>
+                        <a class="nav-link" href="#blogSection">Blogs</a>
+                        <a class="nav-link" href="#ContactSession">Contect us</a>
+                        <a class="nav-link" href="#aboutUsSection">About us</a>
+
+                    </div>
+
+                </div>
+            </nav>
+            <p class="ml-4">Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+            <hr class="m-2">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="bg-color">
+                    <p class="pb-3 pl-1 pb-5">C</p>
+
+                </div>
+                <span class="ml-2 mr-5">2020 Flowbase. Powered by <span style="color:#fc8b72">Webflow</span></span>
+
+                <div class="" style="">
+                    <i class="fa-brands fa-facebook pl-4 " style="font-size: 25px; margin-left:400px"></i>
+                    <i class="fa-brands fa-twitter pl-4 pr-2" style="font-size: 25px"></i>
+                    <i class="fa-brands fa-instagram pl-4 pr-2" style="font-size: 25px"></i>
+                </div>
+            </div>
+        </div>
+        <div id="blogSection">
+            <section>
+                <div class="text-center pt-4 eigth-session-Blog-card m-5 pt-3 pb-5">
+                    <h1>Blog & Article</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                    <div class="eigth-session-container m-auto">
+                        <input type="text" class="eigth-session-input-element mt-3" placeholder="Your email address" />
+                        <button class="btn btn-dark eigth-session-button-element mt-1 mb-2 ml-2">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex flex-row justify-content-between m-4">
+                    <div>
+
+
+                        <div class="d-flex flex-row justify-content-between pt-3">
+                            <img src="https://img.freepik.com/free-photo/top-view-baked-potatoes-with-minced-meat-greens-inside-plate-dark-blue-desk_140725-49961.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class=" second-session-blog-image" />
+                            <div class="pl-2">
+                                <h1>Crohet Projects for Noodle Lovers</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim</p>
+                                <div class="header">
+
+                                    <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <h1 class="username">Wade Warren</h1>
+                                        <span>12 November 2021</span>
+
+
+                                    </div>
+
+
+                                </div><br>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between pt-3">
+                            <img src="https://img.freepik.com/premium-photo/aloo-capsicum-sabzi-potato-bell-pepper-sabji-is-indian-vegetarian-recipe-main-course_466689-5545.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class=" second-session-blog-image" />
+                            <div class="pl-2">
+                                <h1>10 Vegetarian Recipes To Eat This Month</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim</p>
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <h1 class="username">Robert Fox</h1>
+                                        <span>12 November 2021</span>
+
+
+                                    </div>
+
+
+                                </div><br>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between pt-3">
+                            <img src="https://img.freepik.com/premium-photo/concept-tasty-food-with-chicken-tikka-beige-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-background_185193-63864.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class=" second-session-blog-image" />
+                            <div class="pl-2">
+                                <h1>Full Guide to Becoming a Professional Chef</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim</p>
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/premium-photo/profile-attractive-lady-toothy-smiling-arms-crossed_274222-27447.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <h1 class="username">Dianne Russell</h1>
+                                        <span>12 November 2021</span>
+
+
+                                    </div>
+
+
+                                </div><br>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between pt-3">
+                            <img src="https://img.freepik.com/free-photo/crispy-tubtim-fish-salad-thai-food-herb_1150-23404.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class=" second-session-blog-image" />
+                            <div class="pl-2">
+                                <h1>Simple & Delicious Vegetarian Lasagna</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim</p>
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-photo/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <h1 class="username">Lesile Alexander</h1>
+                                        <span>12 November 2021</span>
+
+
+                                    </div>
+
+
+                                </div><br>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between pt-3">
+                            <img src="https://img.freepik.com/free-photo/top-view-delicious-eggplant-rolls-cooked-dish-with-potatoes-bread-seasonings-dark-background-dish-cooking-food-potato-fry-bake_140725-116112.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class=" second-session-blog-image" />
+                            <div class="pl-2">
+                                <h1>Plantain and Pinto Stew with Aji Verde</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim</p>
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/premium-photo/charming-positive-nice-lovely-lady-crossed-arms-posing_274222-26699.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <h1 class="username">Coutney Henry</h1>
+                                        <span>12 November 2021</span>
+
+
+                                    </div>
+
+
+                                </div><br>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between pt-3">
+                            <img src="https://img.freepik.com/premium-photo/vegetarian-dish-peppers-stuffed-with-quinoa-shrimp-vegetables-free-space-your-text_264437-2994.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class=" second-session-blog-image" />
+                            <div class="pl-2">
+                                <h1>We're Hiring a Communications Assistant!</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim</p>
+                                <div class="header">
+
+                                    <img src="https://img.freepik.com/free-photo/brunet-man-with-round-eyeglasses_273609-10124.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" alt="Profile Picture" class="profile-pic">
+                                    <div class="">
+                                        <h1 class="username">Albert Flores</h1>
+                                        <span>12 November 2021</span>
+
+
+                                    </div>
+
+
+                                </div><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-2">
+                        <h1 class="pb-3"> Tasty Recipes</h1>
+                        <div class="d-flex flex-row justify-content-center pb-3">
+                            <img src="https://img.freepik.com/free-photo/top-view-tasty-meat-soup-with-potatoes-seasonings-dark-desk_140725-76944.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="second-session-blog-image" />
+                            <div class="d-flex flex-column justify-content-center pl-2">
+                                <h1>Chicken Meatballs with Cream Cheese</h1>
+                                <p>By Andreas Paula</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center pb-3">
+                            <img src="https://img.freepik.com/free-photo/front-view-meat-sauce-soup-with-greens-potatoes-dark-desk-soup-dinner-sauce-meat_140725-79068.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="second-session-blog-image" />
+                            <div class="d-flex flex-column justify-content-center pl-2">
+                                <h1>Traditional Bolognaise Ragu</h1>
+                                <p>By Andreas Paula</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center pb-3">
+                            <img src="https://img.freepik.com/free-photo/top-close-up-view-chicken-sauce-lemon-chicken-with-potatoes-seeds-pomegranate-herbs_140725-72600.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="second-session-blog-image" />
+                            <div class="d-flex flex-column justify-content-center pl-2">
+                                <h1>Pork and Chive Chinese Dumplings</h1>
+                                <p>By Andreas Paula</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section>
+                <div class="text-center pt-4 eigth-session-Blog-card2 m-5 pt-3 pb-5">
+                    <h1>Deliciousness to your inbox</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                    <div class="eigth-session-container m-auto">
+                        <input type="text" class="eigth-session-input-element mt-3" placeholder="Your email address" />
+                        <button class="btn btn-dark eigth-session-button-element mt-1 mb-2 ml-2">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white m-2">
+                <a class="navbar-brand" href="#">Foodland.</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#HomePageSession">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#RecipesSection">Recipes</a>
+                        <a class="nav-link" href="#">Blogs</a>
+                        <a class="nav-link" href="#ContactSession">Contect us</a>
+                        <a class="nav-link" href="#aboutUsSection">About us</a>
+
+                    </div>
+
+                </div>
+            </nav>
+            <p class="ml-4">Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+            <hr class="m-2">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="bg-color">
+                    <p class="pb-3 pl-1 pb-5">C</p>
+
+                </div>
+                <span class="ml-2 mr-5">2020 Flowbase. Powered by <span style="color:#fc8b72">Webflow</span></span>
+
+                <div class="" style="">
+                    <i class="fa-brands fa-facebook pl-4 " style="font-size: 25px; margin-left:400px"></i>
+                    <i class="fa-brands fa-twitter pl-4 pr-2" style="font-size: 25px"></i>
+                    <i class="fa-brands fa-instagram pl-4 pr-2" style="font-size: 25px"></i>
+                </div>
+            </div>
+
+        </div>
+        <div id="aboutUsSection">
+            <div class="text-center">
+                <h1 class="heading m-4"> Full Guide to Becoming a Professional Chef</h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="header ml-5 m-5">
+
+                        <img src="https://as2.ftcdn.net/v2/jpg/01/15/85/23/1000_F_115852367_E6iIYA8OxHDmRhjw7kOq4uYe4t440f14.jpg" alt="Profile Picture" class="profile-pic">
+                        <div class="">
+                            <h1 class="username">John Smith</h1>
+                            <span>15 March 2022</span>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <p class="m-4">Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+            </div>
+            <div class="m-4">
+                <img src="https://img.freepik.com/free-photo/front-view-smiling-male-cook-uniform-holding-up-green-pepper-kitchen_140725-109466.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100 contectUs-first-img">
+            </div>
+            <section>
+                <div class="d-flex flex-row justify-content-between m-4">
+                    <div class="m-5">
+                        <div class="pb-3">
+                            <h1>How did you start out in the food industry?</h1>
+                            <p>Most food produced for the food industry comes from commodity crops using conventional agricultural practices. Agriculture is the process of producing food, feeding products, fiber and other desired products by the cultivation of certain plants and the raising of domesticated animals (livestock). On average, 83% of the food consumed by humans is produced using terrestrial agriculture.In addition to terrestrial agriculture, aquaculture and fishing play vital roles in global food production.</p>
+                        </div>
+                        <div class="pb-3">
+                            <h1>What do you like most about your Job?</h1>
+                            <p>l agriculture.In addition to terrestrial agriculture, aquaculture and fishing play vital roles in global food production. Aquaculture involves the cultivation of aquatic organisms such as fish, shrimp, and mollusks in controlled environments like ponds, tanks, or cages. It contributes significantly to the world's seafood supply and provides an important source of protein for human consumption. Fishing, on the other hand, relies on harvesting wild aquatic species from oceans, rivers, and lakes, further diversifying the sources of food for human populations and supporting livelihoods in coastal communities worldwide.</p>
+                        </div>
+                        <div class="pb-3">
+                            <h1 class="pb-2">Do You cook at home on your days off?</h1>
+                            <img src="https://img.freepik.com/free-photo/front-view-mother-girl-preparing-food-kitchen_23-2148805005.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-100" style="border-radius: 30px;" />
+                            <p class="pt-2">Food processing includes the methods and techniques used to transform raw ingredients into food for human consumption. Food processing takes clean, harvested or slaughtered and butchered components and uses them to produce marketable food products. There are several different ways in which food can be produced. </p>
+                        </div>
+                        <div class="pb-3">
+                            <h1>What Would your advice be to young people looking to get their foot in door?</h1>
+                            <p>Modern food production is defined by sophisticated technologies. These include many areas. Agricultural machinery, originally led by the tractor, has practically eliminated human labor in many areas of production. Biotechnology is driving much change, in areas as diverse as agrochemicals, plant breeding and food processing. </p>
+                        </div>
+                        <div class="w-100 contack-us-session3-background">
+                            <h1 class="p-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio."</h1>
+                        </div>
+                        <div class="pb-3 pt-3">
+                            <h1>What is biggest misconception that people have about being a professional chef?</h1>
+                            <p>Food processing includes the methods and techniques used to transform raw ingredients into food for human consumption. Food processing takes clean, harvested or slaughtered and butchered components and uses them to produce marketable food products.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>SHARE THIS ON:</p>
+                        <div class="d-flex flex-column justify-content-center">
+                            <div>
+                                <i class="fa-brands fa-facebook-f" class="mt-4 mb-4"></i>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-twitter" class="mt-4 mb-4"></i>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-instagram" class="mb-3 mt-4"></i>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="text-center pt-4 eigth-session-Blog-card2 m-5 pt-3 pb-5">
+                    <h1>Deliciousness to your inbox</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                    <div class="eigth-session-container m-auto">
+                        <input type="text" class="eigth-session-input-element mt-3" placeholder="Your email address" />
+                        <button class="btn btn-dark eigth-session-button-element mt-1 mb-2 ml-2">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/plates-crisp-warm-wedge-salad-topped-with-bacon-croutons-red-onion_1048944-19138525.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Rainbow Chicken Salad with Almond Honey Mustard Dressing</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/delicious-chicken-sandwich-table_550617-25561.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Barbeque Spicy Sandwiches with Chips</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Snack</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/vietnamese-spring-rolls-with-spicy-sauce_1150-18506.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Firecracker Vegan Lettuce Wraps-spicy!</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Seafood</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/chicken-soup-with-corn-shiitake-mushroom-enoki-mushroom-carrot_1150-25847.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Chicken Ramen Soup With Mushroom</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Japanese</span>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white m-2">
+                <a class="navbar-brand" href="#">Foodland.</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#HomePageSession">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#RecipesSection">Recipes</a>
+                        <a class="nav-link" href="#blogSection">Blogs</a>
+                        <a class="nav-link" href="#ContactSession">Contect us</a>
+                        <a class="nav-link" href="#">About us</a>
+
+                    </div>
+
+                </div>
+            </nav>
+            <p class="ml-4">Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+            <hr class="m-2">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="bg-color">
+                    <p class="pb-3 pl-1 pb-5">C</p>
+
+                </div>
+                <span class="ml-2 mr-5">2020 Flowbase. Powered by <span style="color:#fc8b72">Webflow</span></span>
+
+                <div class="" style="">
+                    <i class="fa-brands fa-facebook pl-4 " style="font-size: 25px; margin-left:400px"></i>
+                    <i class="fa-brands fa-twitter pl-4 pr-2" style="font-size: 25px"></i>
+                    <i class="fa-brands fa-instagram pl-4 pr-2" style="font-size: 25px"></i>
+                </div>
+            </div>
+        </div>
+        <div id="ContactSession">
+            <section>
+                <div class="d-flex flex-row justify-content-center m-4">
+                    <div class="d-flex flex-column justify-content-center ml-2">
+                        <img src="https://img.freepik.com/free-photo/handsome-young-man-chef-portrait_144627-21875.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="w-75" />
+                    </div>
+
+                    <div>
+                        <h1>Contact Us</h1>
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="mb-3">
+                                <label for="name">NAME</label>
+                                <input type="text" class="form-control border-radius: 20px;" id="name" placeholder="Enter your name..." />
+
+                            </div>
+                            <div class="mb-3 ml-3">
+                                <label for="name">EMAIL ADDRESS</label>
+                                <input type="text" class="form-control border-radius: 20px;" id="name" placeholder="Your enail address..." />
+
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="mb-3">
+                                <label for="name">SUBJECT</label>
+                                <input type="text" class="form-control border-radius: 20px;" id="name" placeholder="Enter subject..." />
+
+                            </div>
+                            <div class="mb-3 ml-3">
+                                <label for="name">ENQUIY TYPE</label>
+                                <input type="text" class="form-control border-radius: 20px;" id="name" placeholder="Advertising..." />
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <p>MESSAGE</p>
+                            <textarea placeholder="Enter your message..." id="name" rows="10" cols="100" class="p-2" style="border-width: 2px; border-radius:20px;"></textarea>
+
+                        </div>
+                        <div>
+                            <button class="btn btn-dark last-session-contec-button-element">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="text-center pt-4 eigth-session-Blog-card2 m-5 pt-3 pb-5">
+                    <h1>Deliciousness to your inbox</h1>
+                    <p>Lorem ipsum dolor sit amet,m consectetuipising elit, sed do eiusmod tempor incididunt ut labore et dolore magns aliqut eium ad minim</p>
+                    <div class="eigth-session-container m-auto">
+                        <input type="text" class="eigth-session-input-element mt-3" placeholder="Your email address" />
+                        <button class="btn btn-dark eigth-session-button-element mt-1 mb-2 ml-2">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <h1 class="text-center">Check out the delicious receipe </h1>
+            <section>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/halves-coconut-filled-with-fruit-salad-high-view_23-2148494776.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Mixed Tropical Fruit Saled with Superfood Boosts</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/premium-photo/fried-cutlet-different-ingredients-hamburger-wooden-background-cooking-homemade-hamburger_209484-6702.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Big and Juicy Wagyu Beef Cheeseburger</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Western</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-rice-vegetables-plate_23-2148377487.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Healthy Japanese Fried Rice with Asparagus</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Healthy</span>
+
+
+                        </div>
+
+                    </div>
+                    <div class="seventh-session-container p-2 m-2">
+                        <div class="text-center">
+                            <img src="https://img.freepik.com/free-photo/grilled-chicken-wings-cauliflower-wood-piece_114579-82074.jpg?uid=R111386114&ga=GA1.1.1592989873.1690908614&semt=ais_hybrid" class="forth-session-img" />
+                        </div>
+                        <h1 class="forth-session-heading p-2">Cauliflower Wainut Vegetarian Taco Meat</h1>
+                        <div class="d-flex flex-row justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+                                <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" class="w-100" />
+                            </svg>
+                            <span>30 Minutes</span>
+                            <i class="fa-solid fa-spoon pl-3"></i>
+                            <span class="pl-2">Eastern</span>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white m-2">
+                <a class="navbar-brand" href="#">Foodland.</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#HomePageSession">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#RecipesSection">Recipes</a>
+                        <a class="nav-link" href="#blogSection">Blogs</a>
+                        <a class="nav-link" href="#">Contect us</a>
+                        <a class="nav-link" href="#aboutUsSection">About us</a>
+
+                    </div>
+
+                </div>
+            </nav>
+            <p class="ml-4">Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+            <hr class="m-2">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="bg-color">
+                    <p class="pb-3 pl-1 pb-5">C</p>
+
+                </div>
+                <span class="ml-2 mr-5">2020 Flowbase. Powered by <span style="color:#fc8b72">Webflow</span></span>
+
+                <div class="" style="">
+                    <i class="fa-brands fa-facebook pl-4 " style="font-size: 25px; margin-left:400px"></i>
+                    <i class="fa-brands fa-twitter pl-4 pr-2" style="font-size: 25px"></i>
+                    <i class="fa-brands fa-instagram pl-4 pr-2" style="font-size: 25px"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
